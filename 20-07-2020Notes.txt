@@ -1,0 +1,40 @@
+		       TypeScript
+- JavaScript is not strictly and strongly typed implicitly.
+	var x =10;       x is number
+	x="John";      // valid the type changes to string.
+		         [not strongly typed]
+
+	y = 10;	     // y is not declared, but its valid in JS
+		         [not strictly typed]
+
+- JavaScript can allow schema less data to handle.
+- No rules can be defined for data structure.
+- JavaScript supports OOP but not an OOP language.
+- Reusability and Extensibility issues.
+- Google started a script known as "AtScript" for their new Angular 2x version.
+- Microsoft started a new script as alternative for JavaScript by name "TypeScript". 
+- TypeScript designed by "Anders Hejlsberg", the creator of a language known as "C#" for Microsoft .NET.
+- Browser can understand only JavaScript.
+- TypeScript is used by developers, which transcompiles into JavaScript.
+- TypeScript extends JavaScript by adding types.
+- TypeScript is strictly typed super set of JavaScript.
+- TypeScript is an open source and cross platform language.
+- By understanding JavaScript, TypeScript saves  you time catching error and providing fixes before you run code.
+- TypeScript supports low level features, which can directly interact with hardware services.
+	[IoT]
+- TypeScript is an OOP Language.
+- TypeScript is uses in building large scale applications.
+- TypeScript is completely built with TypeScript.
+- The core of TypeScript language is in TypeScript, hence it can directly interact with hardware.
+- The latest version of TypeScript is  3.9 
+	[4.0 is currently in beta]
+- TypeScript 3.9 targets JavaScript ES6. It can be backward compatible for event ES5. [Latest JavaScript version is ES8]
+
+	         Architecture of TypeScript
+
+
+
+
+
+
+
