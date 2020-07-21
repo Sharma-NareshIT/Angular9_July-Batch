@@ -1,0 +1,98 @@
+Angular need a Language TypeScript
+- What are the features of TypeScript?
+- Architecture of TypeScript
+- TypeScript Latest Version is 3.9
+- Angular 10 is now Stable - it uses Typescript 3.9
+- Angular 9 uses TypeScript 3.8
+
+	Setup Environment for TypeScript
+	============================
+1. Download and Install Node JS on your PC for a Package Manager "NPM".
+	- Node Package Manager
+  
+Note: Package Manager is a software tool used by developers to download and install various libraries from the Orign of their repository server. There are several package manager tools like : Yarn, Grunt, Growl, Bower,
+		                NuGet, Ruby Gems, NPM
+
+  - Visit  "https://nodejs.org/en/download/"
+  - Download ".msi" for your Windows OS and Install on your PC.
+
+Check the Version:
+ - Open Command Prompt
+ - Type the following command
+	C:\> node -v	[for node js version]
+	C:\> npm -v 	[package manager version]
+
+ Note: You need Node JS 10+ version
+
+2. Download and Install TypeScript for your PC
+    - Open Your command prompt
+    - Type the following command
+	
+	C:\>npm install -g typescript
+
+	  -g	global on your PC
+    - Check typescript version
+	
+	C:\> tsc  -v
+
+	tsc - TypeScript Standalone Compiler
+
+You can setup a new Website on local server and start typescript programming:
+===============================================
+
+1. Create a new WebSite on your Local web server 
+    like  IIS, Tomcat etc..
+    - Windows have IIS as WebServer in-built.
+    
+  Ex:
+     - Open your windows control panel
+     - Goto Administrative Tools
+     - Look for IIS (Internet Information Services)
+
+  If not available directly in Administrative tools
+    - Goto "Programs and Features" in control panel
+    - Click on "Turn Windows Featurs ON or OFF"
+    - Select Internet Information Services
+
+Test your server:
+     - Open any Browser
+     - Test the following Url
+	http://localhost
+	            (or)
+	http://127.0.0.1
+
+2. Creating a new Website
+    - Open your Local Web Server [ IIS ]
+	Run → inetmgr
+    - Expand Local computer  "http://localhost"
+    - Expand "Sites" folder
+    - Right Click on "Default Website"
+    - Select "Add Virtual Directory"
+
+	alias(website name)	: TsTestProject
+	Physical Path	: C:\TsTestProject
+
+     Virtual Path:  	http://localhost/TsTestProject
+     Physical Paht:	C:\TsTestProject
+ 
+3. Create an Index Page for your website
+    - Open Notepad
+    - type your HTML code
+<!DOCTYPE html>
+<html>
+<head> <title> TypeScript </title> </head>
+<body>
+<h2> Welcome To TypeScript </h2>
+</body>
+</html>
+    - Create a new HTML page  by name "index.html"  
+    - Save in your website physical path
+
+
+
+
+
+
+
+
+
