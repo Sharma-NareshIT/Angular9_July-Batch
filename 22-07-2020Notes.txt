@@ -1,0 +1,120 @@
+1. Create a new Website on Web Server
+2. Install TypeScript
+
+- Configuring TypeScript Programs in Website
+- Trans-Compiling into JavaScript
+- Link JavaScript to HTML page
+- All JavaScript programs are valid in TypeScript.
+- A basic typescript program will have extension ".ts"
+
+Ex:
+1. Open Notepad 
+2. Type a Simple Program [We can use JavaScript Program]
+
+function bodyload()
+{
+   alert("Hello ! Welcome to TypeScript");
+}
+
+3. Save the program into your website physical path by name
+	                welcome.ts
+	    [C:\TsTestProject\code\welcome.ts]
+
+4. Open your physical path in command prompt
+
+	C:\TsTestProject\Code>
+
+5. Transcompile TypeScript program into JavaScript by using "Standalone TypeScript Compiler [tsc.ts]"
+
+            C:\TsTestProject\Code> tsc  welcome.ts
+
+6. This will generate "welcome.js" into code folder
+
+7. Link JavaScript program and use its functions in "index.html"
+
+<!DOCTYPE html>
+<html>
+<head> 
+<title> TypeScript </title> 
+<script src="code/welcome.js"> </script>
+</head>
+<body onload="bodyload()">
+<h2> Welcome To TypeScript </h2>
+</body>
+</html>
+	
+	
+	         Better use an IDE 
+	         --------------------------
+- Integrated Development Environment
+- IDE provides an development environment for developer to design, test, debug and deploy application.
+- Editor that provides options for 
+	Building
+	Debugging
+	Testing
+	Deploying
+- TypeScript can be used on various editors
+	- BBEdit
+	- CoreCrusader
+	- CodeLite
+	- ElementaryCode
+	- Builder
+	- Gitea
+	- GitHub
+	- GitLab
+	- GitBucket
+	- Gogs
+	- ItelliJIDEA
+	- jbTestEdit
+	- KTextEditor
+	- Komodo
+	- PyCharm
+	- Visual Studio
+	- Visual Studio Code
+	- RubyMine
+	- WebStrom
+	- Sublime
+	- Brackets
+	- Eclipse
+	- Notepade++
+	- Emacs
+
+		Visual Studio Code
+- Microsoft - Visual Studio Code
+- Microsoft - TypeScript
+- It is free, open source, cross platform
+
+Setup Enviroment for TypeScript on VS Code
+=====================================
+1. Download and Install VS Code
+
+          https://code.visualstudio.com/
+
+2. Open Visual Studio Code
+
+3. In the Customize Panel on Home Screen click on
+	 Install support for
+	    "JavaScript"
+
+4. Goto Extentions in VS Code and Install following Extentions
+
+	-  TSLint [Microsoft]  - Code Analysis
+	-  Live Server [ Ritwick Dey ]
+	-  vscode-icons
+
+5. Open Your Project folder in Visual Studio Code
+	File → Open Folder
+
+6. You can open Integrated Terminal in VS Code for compiling
+	Terminal Menu → New Terminal [Ctrl + ` ]
+
+
+
+
+
+
+
+
+
+
+
